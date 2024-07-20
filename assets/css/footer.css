@@ -1,0 +1,29 @@
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin: 15px 0px;
+    text-align: left;
+    color: rgb(95, 95, 95);
+    line-height: 1.2;
+}
+footer ul li:hover{
+    color: aqua;
+}
+ footer #icon-foot{
+    margin-right: 10px;
+}
+.input-group-append {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+.row-foot{
+    display: flex;
+ }
+footer{
+    font-size: 15px;
+}
+footer input:focus{
+    outline: none;
+}
+ 

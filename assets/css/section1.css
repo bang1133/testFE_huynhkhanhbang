@@ -1,0 +1,27 @@
+
+#section1 {
+    width: 100%;
+ }
+ #section1 .row{
+   margin: 0px auto;
+ }
+ #section1 .row .col-md-3{
+   margin: 0px auto;
+ }
+ #container-sec1 {
+    margin-top: 30px;
+ }
+
+ #feature {
+    display: flex;
+ }
+ #section1 .icon-sec{
+   margin-right: 20px;
+ }
+ #section1 .text-sec h6{
+  white-space: nowrap; 
+}
+ #section1 .text-sec span{
+     white-space: nowrap;
+     font-size: 12px; 
+ }

@@ -1,0 +1,121 @@
+#wrapper {
+   width: 100%;
+   background-color: blanchedalmond;
+}
+#header {
+   height: 100px;
+   margin: 0px auto;
+
+}
+#wrapper #header .row{
+   margin: 0px auto;
+
+ }
+#wrapper #col-head-left{
+   margin: 0px auto;
+   display: flex;
+}
+.logo{
+   margin-top: 30px;
+ }
+.menu {
+   display: flex;
+   list-style: none;
+   margin: 20px;
+}
+.menu .item a {
+   text-decoration: none;
+   color: #626A67;
+}
+.menu .item li{
+   margin: 20px;
+}
+.btn-search{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn-search input{
+   border: none;
+   height: 30px;
+   width: 200px;
+}
+.btn-search input:focus{
+   outline:none;
+}
+.btn-search svg{
+   position: absolute;
+   left: 0;
+   margin-left: 10px;
+}
+#wrapper .btn-search input[type="text"] {
+   padding-left: 40px;
+   font-size: 10px;
+ }
+#wrapper #col-head-right{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+#wrapper #col-head-right .items{
+   margin: 15px;
+}
+#wrapper #col-head-right .items img{
+   border: 1px solid;
+   margin-top: 2px;
+   border-radius: 50%;
+   width:30px;
+   height:30px;
+}
+#toggler,
+header label{
+   display: none;
+}
+/* responsive */
+ @media (max-width: 767px) {
+   .header-toggle {
+      display: block;
+      cursor: pointer;
+    }
+    
+    .header-toggle label {
+      display: block;
+      font-size: 24px;
+    }
+    
+    .menu {
+      display: none;
+    }
+    
+    .header-toggle input[type="checkbox"]:checked ~ .menu {
+      display: block;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+ }
+ 
+  @media (min-width: 768px) {
+   .header-toggle {
+     display: none;
+   }
+   .menu {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .menu .item {
+     margin: 0 20px;
+   }
+   .menu .item a {
+     text-decoration: none;
+     color: #333;
+   }
+ }
+ 

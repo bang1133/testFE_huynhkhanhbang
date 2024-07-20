@@ -1,0 +1,36 @@
+#section3 {
+    background-color: antiquewhite;
+    width: 100%;
+ }
+#section3 .row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+#btn-sec3 {
+    border: none;
+    background-color: rgb(224, 131, 150);
+}
+
+#section3 .col {
+    margin-top: 20px;
+}
+#section3 a{
+    border-radius: 0px !important;
+    margin: 30px 0px;
+}
+#section3 .col-left {
+    margin: 100px;
+}
+#background-sec3{
+    margin: 0px auto;
+    position: relative;
+}
+#background-sec3 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+  /*  */
